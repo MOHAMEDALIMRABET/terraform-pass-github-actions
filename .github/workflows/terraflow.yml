@@ -28,7 +28,7 @@ jobs:
         run: ls -a 
 
       - name: Terrafom Init
-        run: terraform init
+        run: terraform Init
 
       - name: Terraform Plan
         run: terraform plan
